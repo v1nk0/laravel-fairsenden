@@ -1,0 +1,33 @@
+{
+  "name": "v1nk0/laravel-fairsenden",
+  "description": "",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Vincent Sebastiaan Kooijman",
+      "email": "info@vincentkooijman.at",
+      "homepage": "https://www.vincentkooijman.at",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "V1nk0\\LaravelFairsenden\\": "src/"
+    },
+    "classmap": []
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "laravel/framework": "^9",
+    "nesbot/carbon": "^2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "V1nk0\\LaravelFairsenden\\Providers\\PackageServiceProvider"
+      ]
+    }
+  }
+}
