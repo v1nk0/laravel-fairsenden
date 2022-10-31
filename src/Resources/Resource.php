@@ -79,7 +79,7 @@ abstract class Resource implements ResourceContract
 
     public function jsonSerialize(): string
     {
-        return json_encode($this->toArray());
+        return json_encode($this->values());
     }
 
     public function rules(): array

@@ -7,4 +7,6 @@ interface ResourceContract
     public function rules(): array;
 
     public function values(): array;
+
+    public function jsonSerialize(): string;
 }
